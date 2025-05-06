@@ -1,0 +1,75 @@
+.cabecera{
+    background-image: url(/Tarea/imagenes/cabecera-frutas.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: contrast(100%);
+}
+.cabecera-one{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+.cabecera-two{
+    background-color: tomato;
+    padding: 5px;
+}
+.seccion{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+    margin: 0;
+}
+.seccion a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.seccion  li:hover{
+    background-color:yellowgreen;
+    padding: 5px;
+}
+.contener-one {
+    background-image: url('/Tarea/imagenes/div2.jpg');
+    background-position: right center;
+    background-size: cover;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contener-one-one {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contener-two{
+    display: block;
+    background-color:wheat;
+
+
+}
+.logo-contacto{
+    background-image: url('/Tarea/imagenes/contactos.jpg');
+    background-size: cover;
+    background-position: right center;
+    position: relative;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
+    display: block;
+    flex-direction:column;
+}

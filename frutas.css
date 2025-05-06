@@ -1,0 +1,51 @@
+.cabecera{
+    background-image: url(/Tarea/imagenes/cabecera-frutas.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: contrast(100%);
+}
+.cabecera-one{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+.frutas-contener{
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    height: 900px
+;
+}
+.seccion-two{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    background-color:tomato;
+    padding: 20px;
+}
+.seccion-two a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.seccion-two li:hover{
+    background-color: yellowgreen;
+    padding: 5px;
+}
+.seccion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    gap: 80px;
+    display: block;
+    width: 300px;
+}
+.frutas-contener :right,
+.frutas-contener-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    top: 10px;
+}
